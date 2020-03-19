@@ -1,0 +1,30 @@
+.gridUL{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    flex-wrap: wrap;
+}
+
+.gridUL li{
+    height: 32%;
+    width: 32%;
+    border: 1px solid black;
+    background-color: grey;
+    list-style-type: none;
+}
+
+.gridUL li:hover{
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}
+
+.x {
+    color: red;
+}
+
+.o {
+    color: blue;
+}
